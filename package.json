@@ -27,8 +27,7 @@
       {
         "command": "external-lazygit.openLazygit",
         "key": "cmd+g g",
-        "mac": "cmd+g g",
-        "linux": "ctrl+g g"
+        "mac": "cmd+g g"
       }
     ],
     "configuration": {

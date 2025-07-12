@@ -4,13 +4,11 @@ This extension allows you to open Lazygit in WezTerm from VSCode.
 
 ## Features
 
-- Default keybinding: `cmd+g g` on macOS, `ctrl+g g` on Windows and Linux
+- Default keybinding: `cmd+g g` on macOS
 - You can change the keybinding in your VSCode settings.
 - You can also run `external-lazygit.openLazygit` from the command palette.
 
 ## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
 - [Lazygit](https://github.com/jesseduffield/lazygit) must be installed in your system.
 - [WezTerm](https://wezterm.org/) must be installed in your system and configured to `external-lazygit.weztermPath` in your VSCode settings.
@@ -23,7 +21,7 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-- No known issues.
+- Only supports macOS.
 
 ## Release Notes
 
@@ -50,4 +48,4 @@ You can author your README using Visual Studio Code. Here are some useful editor
 - [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 - [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/) -->
 
-**Enjoy!**
+<!-- **Enjoy!** -->
