@@ -37,7 +37,7 @@
         "external-lazygit.weztermPath": {
           "type": "string",
           "default": "",
-          "description": "Path to WezTerm"
+          "description": "Path to WezTerm (leave empty to use VSCode terminal)"
         }
       }
     }

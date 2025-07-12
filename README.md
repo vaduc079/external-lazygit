@@ -1,27 +1,28 @@
 # external-lazygit README
 
-This extension allows you to open Lazygit in WezTerm from VSCode.
+This extension allows you to open Lazygit from VSCode.
 
 ## Features
 
 - Default keybinding: `cmd+g g` on macOS
 - You can change the keybinding in your VSCode settings.
 - You can also run `external-lazygit.openLazygit` from the command palette.
+- Open Lazygit in WezTerm or VSCode terminal.
 
 ## Requirements
 
 - [Lazygit](https://github.com/jesseduffield/lazygit) must be installed in your system.
-- [WezTerm](https://wezterm.org/) must be installed in your system and configured to `external-lazygit.weztermPath` in your VSCode settings.
+- If you want to open Lazygit in WezTerm, [WezTerm](https://wezterm.org/) must be installed in your system and configured to `external-lazygit.weztermPath` in your VSCode settings.
 
 ## Extension Settings
 
 This extension contributes the following settings:
 
-- `external-lazygit.weztermPath`: Path to WezTerm
+- `external-lazygit.weztermPath`: Path to WezTerm (leave empty to use VSCode terminal)
 
 ## Known Issues
 
-- Only supports macOS.
+- Open Lazygit in WezTerm only supports macOS.
 
 ## Release Notes
 
